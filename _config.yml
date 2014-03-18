@@ -6,19 +6,18 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            Adam Walsh
+tagline:          'My Personal Website'
+description:      'A place for me to post whatever I want.'
+url:              http://walshie4.github.io
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-paginate:         5
+  name:           'Adam Walsh'
+  github:         'walshie4'
+  url:            https://walshie4.github.io
 
 # Custom vars
-version:          2.0.0
+version:          0.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/walshie4/walshie4.github.io
