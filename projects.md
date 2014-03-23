@@ -11,6 +11,6 @@ title: Projects
 * [TorBrowserUpdater](https://github.com/walshie4/TorBrowserUpdater)
     * An application designed to ensure you are launching the most recent release of the [TBB](https://www.torproject.org/)
 * [BitSim](https://github.com/walshie4/BitSim)
-    * A simple [Bitcoin](https://github.com/walshie4/BitSim) trading simulator
+    * A simple [Bitcoin](https://bitcoin.org/) trading simulator
 
 For a full list of my open-source projects look on [my Github page.](https://github.com/walshie4)
