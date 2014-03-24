@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-sidebar
 title: Quotes
 ---
 I believe that words and language often restricts the ability of our minds to express thoughts completely. 

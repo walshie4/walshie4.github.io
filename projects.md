@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-sidebar
 title: Projects
 ---
 * [Ultimate Blocklist](https://walshie4.github.io/Ultimate-Blocklist/)
