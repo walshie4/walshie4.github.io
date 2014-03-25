@@ -12,6 +12,10 @@ sidebar: true
 * [Satoshi Nakamoto](http://en.wikipedia.org/wiki/Satoshi_Nakamoto)
     * Creator of the Bitcoin protocol, and anonymous badass
 
+* [Mark Wahlberg](http://en.wikipedia.org/wiki/Mark_Wahlberg)
+    * Not only is he an incredible actor and director, but he also has a really inspiring 
+    and intresting background story. <small>(Also he's from Boston)</small>
+
 * [Jeff Bridges](http://en.wikipedia.org/wiki/Jeff_Bridges)
     * Awesome actor, and overall cool dude (also 'the dude')
 
