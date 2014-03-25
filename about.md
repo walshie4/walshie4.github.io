@@ -1,6 +1,7 @@
 ---
-layout: page-sidebar
+layout: page
 title: About
+sidebar: true
 ---
 Hi! My name is Adam Walsh, I'm currently a student at the Rochester Institute of Technology studying Software Engineering.
 

@@ -1,6 +1,7 @@
 ---
-layout: page-sidebar
+layout: page
 title: People
+sidebar: true
 ---
 ###Some Awesome People <small>(in no particular order)</small>
 
@@ -14,3 +15,4 @@ title: People
 * [Jeff Bridges](http://en.wikipedia.org/wiki/Jeff_Bridges)
     * Awesome actor, and overall cool dude (also 'the dude')
 
+<small>More to come...</small>

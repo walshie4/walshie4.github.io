@@ -1,6 +1,7 @@
 ---
-layout: page-sidebar
+layout: page
 title: Important / Cool things
+sidebar: true
 ---
 ##The Privacy Debate
 As I hope many of you are aware there recently has been a growing debate about our privacy when using electronic
@@ -23,4 +24,21 @@ actually features Richard Ledgett live answering questions at a [TED](http://www
  himself live via robot and webcam, and offers insight into his intentions with the leak, as well as his take on
  some of the programs he uncovered. Also, some talk as to what he believes are the next steps.
 
-More to come....
+##Awesome Open-source Projects
+* [OpenSpritz](https://github.com/Miserlou/OpenSpritz)
+    * If you don't know about [Spritz](http://www.spritzinc.com/) you should check it out. It's incredible. But this project
+    isn't Spritz, it's just a nice reminder of why I love the open-source community. OpenSpritz is an open-source rendition
+    of the Spritz software written in Javascript. For more information read the [blog post](https://gun.io/blog/openspritz-a-free-speed-reading-bookmarklet/)
+    by the original author, or check out the [Github project page](https://github.com/Miserlou/OpenSpritz).
+
+* [Popcorn Time](https://github.com/popcorn-team/popcorn-app)
+    * Popcorn time is another just incredible project. It allows you to stream movies using the power of [BitTorrent](http://en.wikipedia.org/wiki/BitTorrent),
+    and it is just soooooo cool. I hope to see forks (if not help out on those forks) for watching TV shows, or listening
+    to music.
+
+* [iOS Onion Browser](https://github.com/mtigas/iOS-OnionBrowser)
+    * I love [TOR](https://www.torproject.org/) and of course I love open-source so when I found out that the Onion Browser
+    for iOS was open source I was thrilled. Putting the power of TOR onto iOS (not even just jailbroken iOS) is something I believe
+    is almost nessecary, not to mention really cool. You can check out the [offical site here](https://mike.tig.as/onionbrowser/).
+
+<small>More to come....</small>

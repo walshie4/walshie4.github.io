@@ -1,6 +1,7 @@
 ---
-layout: page-sidebar
+layout: page
 title: Projects
+sidebar: true
 ---
 * [Ultimate Blocklist](https://walshie4.github.io/Ultimate-Blocklist/)
     * A super blocklist to rule them all
