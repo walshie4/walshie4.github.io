@@ -24,6 +24,10 @@ actually features Richard Ledgett live answering questions at a [TED](http://www
  himself live via robot and webcam, and offers insight into his intentions with the leak, as well as his take on
  some of the programs he uncovered. Also, some talk as to what he believes are the next steps.
 
+<small>I recently wrote a research paper on this topic as part of my Ethics in Computing (ISTE-110) class at RIT. So expect
+this section to grow a lot as I transfer what I believe to be the critical information here.</small>
+
+
 ##Awesome Open-source Projects
 * [OpenSpritz](https://github.com/Miserlou/OpenSpritz)
     * If you don't know about [Spritz](http://www.spritzinc.com/) you should check it out. It's incredible. But this project
