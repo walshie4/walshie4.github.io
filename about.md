@@ -15,5 +15,6 @@ My accounts:
 * [Twitter](https://twitter.com/_walshie_)
 * [Careers 2.0](https://careers.stackoverflow.com/adamwalsh)
 * Email: adw7422@rit.edu
+* [Reddit](http://www.reddit.com/user/_walshie_)
 
 You can view my [resumé here](/NewResume.pdf)
