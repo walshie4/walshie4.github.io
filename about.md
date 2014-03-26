@@ -14,3 +14,5 @@ My accounts:
 * [Github](https://github.com/walshie4)
 * [Twitter](https://twitter.com/_walshie_)
 * [Careers 2.0](https://careers.stackoverflow.com/adamwalsh)
+
+You can view my [resumé here](/NewResume.pdf)
