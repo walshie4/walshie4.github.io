@@ -15,4 +15,10 @@ capacity of what the speaker had in mind. This page is for those such words.
 
 -------------------
 
+"It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult."
+
+<p style='text-align: right;'><a href="http://en.wikipedia.org/wiki/Seneca_the_Younger">-Seneca</a></p>
+
+-----------------
+
 <small>More to come...</small>

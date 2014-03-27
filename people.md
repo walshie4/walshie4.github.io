@@ -19,4 +19,9 @@ sidebar: true
 * [Jeff Bridges](http://en.wikipedia.org/wiki/Jeff_Bridges)
     * Awesome actor, and overall cool dude (also 'the dude')
 
+* [Richard Stallman](http://en.wikipedia.org/wiki/Richard_Stallman)
+    * Essentially a god in the FOSS community he founded the [Free Software Foundation](https://fsf.org/)
+    and started the [GNU project](http://www.gnu.org/). His [personal website](http://www.stallman.org/) is
+    a great source of news regarding free and open culture.
+
 <small>More to come...</small>
