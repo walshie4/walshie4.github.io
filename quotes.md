@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Quotes
-sidebar: true
+sidebar: false
 ---
 I believe that words and language often restricts the ability of our minds to fully express our thoughts and feelings. 
 However, from time to time I stumble upon an arrangement of words that I feel nears the true 
