@@ -24,6 +24,14 @@ actually features Richard Ledgett live answering questions at a [TED](http://www
  himself live via robot and webcam, and offers insight into his intentions with the leak, as well as his take on
  some of the programs he uncovered. Also, some talk as to what he believes are the next steps.
 
+####Words from others on this subject
+
+* [A great video](http://media.libreplanet.org/u/zakkai/m/free-software-for-freedom-surveillance-and-you/) from 
+[Jacob Appelbaum](http://en.wikipedia.org/wiki/Jacob_Appelbaum) featured at [LibrePlanet 2014](https://libreplanet.org/2014/)
+about the surviellence breaks, and how free and open software and hardware plays into the surviellence issue and our future.
+He also talks about what needs to change in free and open source software to become more mainstream, and allow us to break free of
+these monitored centralized systems.
+
 <small>I recently wrote a research paper on this topic as part of my Ethics in Computing (ISTE-110) class at RIT. So expect
 this section to grow a lot as I transfer what I believe to be the critical information here.</small>
 
