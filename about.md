@@ -17,4 +17,4 @@ My accounts:
 * Email: adw7422@rit.edu
 * [Reddit](http://www.reddit.com/user/_walshie_)
 
-You can view my [resumé here](/Resumé.pdf)
+You can view my [resumé here](/Resume.pdf)
