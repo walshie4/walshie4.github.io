@@ -20,4 +20,8 @@ sidebar: true
     * The home to the [bodyweight fitness](http://antranik.org/bodyweight-training/) workout routine
     I build my workouts off of.
 
+* [Kevin Informatics - Graph TV](http://graphtv.kevinformatics.com/)
+    * Very cool website which will allow you to see how the IMDb ratings of different shows has changed
+    throughout their production. Just type in a show name and manipulate the output in your style of viewing.
+
 <small>More to come...</small>
