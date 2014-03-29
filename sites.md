@@ -24,4 +24,8 @@ sidebar: true
     * Very cool website which will allow you to see how the IMDb ratings of different shows has changed
     throughout their production. Just type in a show name and manipulate the output in your style of viewing.
 
+* [Cyrpto.cat](https://crypto.cat/)
+    * Encrypted chat client, add Tor for an even more secure system.
+
+
 <small>More to come...</small>
