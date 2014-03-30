@@ -48,4 +48,6 @@ sidebar: true
 
     And that's how I like it too. :]
 
+    And after all that, just when I thought it couldn't get any better I found out it's [open-source](https://github.com/turtl). :D
+
 <small>More to come...</small>
