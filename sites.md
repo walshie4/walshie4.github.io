@@ -30,4 +30,22 @@ sidebar: true
 * [Lamassu](https://lamassu.is/)
     * A company devoted to making Bitcoin ATM's a reality
 
+* [Turtl](https://turtl.it/)
+    * A [Dropbox](https://www.dropbox.com/) alternative that puts your security first. I was thrilled to find this
+    and even more thrilled when I read the below quote from a [blog post](http://turtlapp.tumblr.com/post/81222024691/how-turtl-has-no-idea-when-youre-sharing-copyrighted)
+    of theirs.
+
+    >Using this system, Turtl effectively knows nothing about what you’re storing at all. Not only does Turtl 
+    >have zero knowledge of your data, the same applies for hackers and government agencies as well.
+    >
+    >Only you and those you share with are able to view any of your data.
+
+    And...
+
+    >We don’t know what you’re storing. Neither do copyright holders. Neither does the government.
+    >
+    >That’s how we like it =]
+
+    And that's how I like it too. :]
+
 <small>More to come...</small>
