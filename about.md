@@ -20,6 +20,10 @@ My accounts:
 * Email: adw7422@rit.edu
 * [Reddit](http://www.reddit.com/user/_walshie_)
 * [Hacker News](https://news.ycombinator.com/user?id=walshie4)
+* [GitTip](https://www.gittip.com/walshie4/)
+<script data-gittip-username="walshie4"
+        data-gittip-widget="button"
+                src="//gttp.co/v1.js"></script>
 
 You can view my [resumé here](/Resume.pdf).
 
