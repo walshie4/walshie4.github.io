@@ -21,4 +21,6 @@ My accounts:
 * [Reddit](http://www.reddit.com/user/_walshie_)
 * [Hacker News](https://news.ycombinator.com/user?id=walshie4)
 
-You can view my [resumé here](/Resume.pdf)
+You can view my [resumé here](/Resume.pdf).
+
+You can view my favorite [avatar here](/public/avatar.gif).
