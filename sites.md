@@ -27,5 +27,7 @@ sidebar: true
 * [Cyrpto.cat](https://crypto.cat/)
     * Encrypted chat client, add Tor for an even more secure system.
 
+* [Lamassu](https://lamassu.is/)
+    * A company devoted to making Bitcoin ATM's a reality
 
 <small>More to come...</small>
