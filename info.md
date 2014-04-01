@@ -35,6 +35,7 @@ these monitored centralized systems.
 <small>I recently wrote a research paper on this topic as part of my Ethics in Computing (ISTE-110) class at RIT. So expect
 this section to grow a lot as I transfer what I believe to be the critical information here.</small>
 
+--------------------
 
 ##Awesome Open-source Projects
 * [OpenSpritz](https://github.com/Miserlou/OpenSpritz)
@@ -52,5 +53,21 @@ this section to grow a lot as I transfer what I believe to be the critical infor
     * I love [TOR](https://www.torproject.org/) and of course I love open-source so when I found out that the Onion Browser
     for iOS was open source I was thrilled. Putting the power of TOR onto iOS (not even just jailbroken iOS) is something I believe
     is almost nessecary, not to mention really cool. You can check out the [offical site here](https://mike.tig.as/onionbrowser/).
+
+--------------------
+
+##Coinbase hack
+[Coinbase](https://coinbase.com/) is a great company, and is certainly the easiest way to buy/sell Bitcoins in the U.S. today. However,
+after Information Security Enthuisast [Shubham Shah](http://shubh.am/) [posted about a security hole in their API](http://blog.shubh.am/full-disclosure-coinbase-security/) and the Coinbase team [chose to mark the bug as 'won't fix'](https://hackerone.com/reports/5200), the bug
+was exploited. Early on April 1st, 2014 [a list of Coinbase user's emails and names](http://pastebin.com/RzWipJFb) was released on pastebin.
+The poster claims that this is not the full list and also makes some far reaching statements (that honestly could be true...) about Coinbase
+being under gag order by the FBI, IRS, and FinCEN. There is no way to verify these claims, or even know if there are more emails to the list. 
+The one un-deniable take-away is that the Coinbase team made a mistake here, and because of that mistake they have put some of their users 
+accounts at risk. This really sucks because it's yet another piece of evidence to use against any company that claims they can securly hold 
+your Bitcoins for you (just for the record I think holding your own coins is a no-brainer). Hopefully Coinbase will react
+appropriately and restore some faith back into its customers, because especially when it comes to Bitcoins if you can't be trusted to remain as
+secure as possible the chances of users using your services greatly declines.
+
+--------------------
 
 <small>More to come....</small>
