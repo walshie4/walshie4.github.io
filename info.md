@@ -68,6 +68,9 @@ your Bitcoins for you (just for the record I think holding your own coins is a n
 appropriately and restore some faith back into its customers, because especially when it comes to Bitcoins if you can't be trusted to remain as
 secure as possible the chances of users using your services greatly declines.
 
+Update: Coinbase has [posted](http://blog.coinbase.com/post/81407694500/update-on-coinbase-data-security) a response to the API security flaw with their
+thoughts on the incident, and user info release.
+
 --------------------
 
 <small>More to come....</small>
