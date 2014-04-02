@@ -50,4 +50,8 @@ sidebar: true
 
     And after all that, just when I thought it couldn't get any better I found out it's [open-source](https://github.com/turtl). :D
 
+* [PyCrypto intro](http://kyleisom.net/downloads/crypto_intro.pdf)
+    * A very handy and informative introduction to some basic concepts in cryptography, and in particular the Python module
+    PyCrypto. Written by [Kyle Isom](http://kyleisom.net/about/).
+
 <small>More to come...</small>
