@@ -54,4 +54,7 @@ sidebar: true
     * A very handy and informative introduction to some basic concepts in cryptography, and in particular the Python module
     PyCrypto. Written by [Kyle Isom](http://kyleisom.net/about/).
 
+* [XKCD](http://xkcd.com/)
+    * Awesome comic website that has some really cool and intresting, as well as sometimes funny comics.
+
 <small>More to come...</small>
