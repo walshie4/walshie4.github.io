@@ -57,4 +57,7 @@ sidebar: true
 * [XKCD](http://xkcd.com/)
     * Awesome comic website that has some really cool and intresting, as well as sometimes funny comics.
 
+* [RegExr](http://www.regexr.com/)
+    * An awesome interactive way to become more familiar with using regular expressions.
+
 <small>More to come...</small>
