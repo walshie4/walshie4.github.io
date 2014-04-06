@@ -60,4 +60,10 @@ sidebar: true
 * [RegExr](http://www.regexr.com/)
     * An awesome interactive way to become more familiar with using regular expressions.
 
-<small>More to come...</small>
+* [TinyBuddha](http://tinybuddha.com/)
+    * A website of quotes, blog posts, and other things full of 'simple wisdom for complex lives.'
+
+* [StartPage](https://www.startpage.com/)
+    * As per their tagline it is 'the world's most private search engine' and a quick look at their 
+    [privacy page](https://startpage.com/eng/protect-privacy.html) will confirm this.
+
