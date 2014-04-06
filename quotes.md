@@ -11,6 +11,12 @@ And sometimes quotes are just plain funny.
 
 -------------------
 
+"All that we are is the result of what we have thought. The mind is everything. What we think, we become."
+
+<p style='text-align: right;'><a href="https://en.wikipedia.org/wiki/Buddha">-Buddha</a></p>
+
+------------------
+
 "I disapprove of what you say, but I will defend to the death your right to say it"
 
 <p style='text-align: right;'><a href="http://en.wikipedia.org/wiki/Evelyn_Beatrice_Hall">-Evelyn Beatrice Hall</a></p>
