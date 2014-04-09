@@ -25,7 +25,10 @@ My accounts:
         data-gittip-widget="button"
                 src="//gttp.co/v1.js"></script>
 * [Turtl](https://turtl.it/): adamwalsh14@gmail.com
+* [oDesk (hire me!)](https://www.odesk.com/users/~01a47d8beb77450664)
 
 You can view my [resumé here](/Resume.pdf).
 
 You can view my favorite [avatar here](/public/avatar.gif).
+
+You can view an awkward picture I had to take for my oDesk profile [here](/awkward_picture.jpg).
