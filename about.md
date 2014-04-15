@@ -26,6 +26,7 @@ My accounts:
                 src="//gttp.co/v1.js"></script>
 * [Turtl](https://turtl.it/): adamwalsh14@gmail.com
 * [oDesk (hire me!)](https://www.odesk.com/users/~01a47d8beb77450664)
+* [MindSumo](https://www.mindsumo.com/user/adw7422) - [want to join?](http://bit.ly/Q6vBzc)
 
 You can view my [resumé here](/Resume.pdf).
 
