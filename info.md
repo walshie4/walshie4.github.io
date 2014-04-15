@@ -32,6 +32,13 @@ about the surviellence breaks, and how free and open software and hardware plays
 He also talks about what needs to change in free and open source software to become more mainstream, and allow us to break free of
 these monitored centralized systems.
 
+####Related
+
+* A very upsetting [article](http://www.wired.com/2014/04/obama-zero-day/) that shows the major mindset issue that helped lead to
+the NSA scandal in the first place and now is only making things worse. Note that the President’s Review Group on Intelligence and 
+Communications Technologies released a [report](http://www.wired.com/wp-content/uploads/2014/04/White-House-NSA-Panel-Report-2013.pdf)
+in which it took a much more logical angle on this sensitive issue.
+
 <small>I recently wrote a research paper on this topic as part of my Ethics in Computing (ISTE-110) class at RIT. So expect
 this section to grow a lot as I transfer what I believe to be the critical information here.</small>
 
