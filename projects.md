@@ -9,7 +9,7 @@ sidebar: true
     * Customizable scripts to display information right on your desktop thanks to [GeekTool](http://projects.tynsoe.org/en/geektool/)
 * [Backup-RES-Settings](https://walshie4.github.io/backup-RES-Settings)
     * An application designed to assist in the backing up and restoring of settings for installs of [RES](http://redditenhancementsuite.com/)
-* [TorBrowserUpdater](https://github.com/walshie4/TorBrowserUpdater)
+* [TorBrowserLauncher](https://github.com/walshie4/TorBrowserLauncher)
     * An application designed to ensure you are launching the most recent release of the [TBB](https://www.torproject.org/)
 * [BitSim](https://github.com/walshie4/BitSim)
     * A simple [Bitcoin](https://bitcoin.org/) trading simulator
