@@ -39,6 +39,9 @@ the NSA scandal in the first place and now is only making things worse. Note tha
 Communications Technologies released a [report](http://www.wired.com/wp-content/uploads/2014/04/White-House-NSA-Panel-Report-2013.pdf)
 in which it took a much more logical angle on this sensitive issue.
 
+* [Prism-Break](https://prism-break.org/) is a really cool website that offers free replacements for proprietary software that aims to better
+your security.
+
 <small>I recently wrote a research paper on this topic as part of my Ethics in Computing (ISTE-110) class at RIT. So expect
 this section to grow a lot as I transfer what I believe to be the critical information here.</small>
 

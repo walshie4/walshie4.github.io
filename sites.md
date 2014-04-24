@@ -67,3 +67,6 @@ sidebar: true
     * As per their tagline it is 'the world's most private search engine' and a quick look at their 
     [privacy page](https://startpage.com/eng/protect-privacy.html) will confirm this.
 
+* [Prism-Break](https://prism-break.org/)
+    * Break free from unwanted survillence with open source, security minded replacements for proprietary software.
+
