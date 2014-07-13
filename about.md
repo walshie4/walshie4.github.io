@@ -11,8 +11,20 @@ Adam Walsh is currently a student at the Rochester Institute of Technology study
 This site serves as a means for me to practice web development (something I've always dreaded), and share things I find important / 
 intresting with the world.
 
+--------------------
 
-My accounts:
+###Hire me!
+
+Like what you see? You can hire me through one of the following freelancing services:
+
+* [oDesk](https://www.odesk.com/users/~01a47d8beb77450664)
+* [Guru](http://www.guru.com/freelancers/adam-walsh)
+* [Elance](https://www.elance.com/s/adam-walsh/)
+* [Freelancer](https://www.freelancer.com/u/AdamWalsh4.html)
+
+-----------
+
+###My other accounts:
 ---------------
 * [Github](https://github.com/walshie4)
 * [Twitter](https://twitter.com/_walshie_)
@@ -25,7 +37,6 @@ My accounts:
         data-gittip-widget="button"
                 src="//gttp.co/v1.js"></script>
 * [Turtl](https://turtl.it/): adamwalsh14@gmail.com
-* [oDesk (hire me!)](https://www.odesk.com/users/~01a47d8beb77450664)
 * [MindSumo](https://www.mindsumo.com/user/adw7422) - [want to join?](http://bit.ly/Q6vBzc)
 
 You can view my [resumé here](/Resume.pdf).
