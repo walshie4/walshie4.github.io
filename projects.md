@@ -15,5 +15,11 @@ sidebar: true
     * A simple [Bitcoin](https://bitcoin.org/) trading simulator
 * [Blamer](http://walshie4.github.io/Blamer/)
     * A script to generate a summary of symbolicate guesses for jailbroken iDevice crashes
+* [Sounddown](https://github.com/walshie4/SoundDown)
+    * Got a playlist of free to download songs on SoundCloud? Download them all with artwork and other ID3 tags
+    already filled out.
+* [Private Journal](https://github.com/walshie4/Private-Journal)
+    * An encrypted (passphrase-protected) journal that allows you to easily add to it while keeping your
+    journal encrypted and safe.
     
 For a full list of my open-source projects look on [my Github page.](https://github.com/walshie4)
