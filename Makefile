@@ -1,5 +1,5 @@
 run:
-	jekyll serve --watch --base-url=''
+	jekyll serve --watch --baseurl ''
 push:
 	git push origin master
 
