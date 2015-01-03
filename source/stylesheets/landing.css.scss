@@ -1,0 +1,69 @@
+@mixin background-top-down-gradient($color1, $color2) {
+    background-color: $color1; /* fallback color if gradients are not supported */
+    background-image: -webkit-linear-gradient(top, $color1, $color2); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    background-image:    -moz-linear-gradient(top, $color1, $color2); /* For Firefox (3.6 to 15) */
+    background-image:      -o-linear-gradient(top, $color1, $color2); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to bottom, $color1, $color2); /* Standard syntax; must be last */
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin transition($animations, $time, $style) {
+    -webkit-transition: $animations $time $style;
+    -moz-transition: $animations $time $style;
+    -o-transition: $animations $time $style;
+    transition: $animations $time $style;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    @include transition(all, 1.2s, ease-in-out);
+}
+
+#main {
+    color: rgba(160,160,160,.4);
+    text-shadow: 0 0 2px rgba(250,250,250,.3);
+    font-size: 38px;
+    width: 100%;
+    height: 100%;
+    @include background-top-down-gradient(rgba(35,35,255,.8), rgba(255,124,13,.6));
+}
+
+i:hover, div:hover {
+    color: rgba(240, 240, 240, .8);
+}
+
+#name {
+    padding: 10%;
+    padding-bottom: 1%;
+    font-size: 42px;
+}
+
+#title {
+    font-size: 28px;
+    padding-left: 12%;
+}
+
+#linkbox {
+    padding-top: 10%;
+    padding-left: 8%;
+}
+
+#github, #linkedin {
+    padding: 3%;
+    color: rgba(100,100,100,.4);
+}
