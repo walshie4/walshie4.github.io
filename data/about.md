@@ -8,8 +8,8 @@ Adam Walsh is currently a student at the Rochester Institute of Technology study
 
 ------------------
 
-This site serves as a means for me to practice web development (something I've always dreaded), and share things I find important / 
-intresting with the world.
+This site serves as a means for me to practice web development (something I've always dreaded), and share things I find important /
+interesting with the world.
 
 --------------------
 
