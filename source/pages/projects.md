@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Projects
-sidebar: true
 ---
 * [Ultimate Blocklist](https://walshie4.github.io/Ultimate-Blocklist/)
     * A super blocklist to rule them all
@@ -21,5 +19,5 @@ sidebar: true
 * [Private Journal](https://github.com/walshie4/Private-Journal)
     * An encrypted (passphrase-protected) journal that allows you to easily add to it while keeping your
     journal encrypted and safe.
-    
+
 For a full list of my open-source projects look on [my Github page.](https://github.com/walshie4)

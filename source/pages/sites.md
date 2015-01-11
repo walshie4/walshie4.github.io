@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Awesome Sites
-sidebar: true
 ---
 * [Forcast.io](http://forecast.io)
     * An awesome weather site which takes input from many other weather sites and gives
@@ -35,7 +33,7 @@ sidebar: true
     and even more thrilled when I read the below quote from a [blog post](http://turtlapp.tumblr.com/post/81222024691/how-turtl-has-no-idea-when-youre-sharing-copyrighted)
     of theirs.
 
-    >Using this system, Turtl effectively knows nothing about what you’re storing at all. Not only does Turtl 
+    >Using this system, Turtl effectively knows nothing about what you’re storing at all. Not only does Turtl
     >have zero knowledge of your data, the same applies for hackers and government agencies as well.
     >
     >Only you and those you share with are able to view any of your data.
@@ -64,9 +62,8 @@ sidebar: true
     * A website of quotes, blog posts, and other things full of 'simple wisdom for complex lives.'
 
 * [StartPage](https://www.startpage.com/)
-    * As per their tagline it is 'the world's most private search engine' and a quick look at their 
+    * As per their tagline it is 'the world's most private search engine' and a quick look at their
     [privacy page](https://startpage.com/eng/protect-privacy.html) will confirm this.
 
 * [Prism-Break](https://prism-break.org/)
     * Break free from unwanted survillence with open source, security minded replacements for proprietary software.
-

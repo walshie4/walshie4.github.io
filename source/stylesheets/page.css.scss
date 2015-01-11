@@ -1,0 +1,55 @@
+//SCSS for non-landing pages
+@mixin background-top-down-gradient($color1, $color2) {
+    background-color: $color1; /* fallback color if gradients are not supported */
+    background-image: -webkit-linear-gradient(top, $color1, $color2); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    background-image:    -moz-linear-gradient(top, $color1, $color2); /* For Firefox (3.6 to 15) */
+    background-image:      -o-linear-gradient(top, $color1, $color2); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to bottom, $color1, $color2); /* Standard syntax; must be last */
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin transition($animations, $time, $style) {
+    -webkit-transition: $animations $time $style;
+    -moz-transition: $animations $time $style;
+    -o-transition: $animations $time $style;
+    transition: $animations $time $style;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    @include transition(all, 1.2s, ease-in-out);
+}
+
+body#main {
+    color: rgba(240,240,240,.8);
+    text-shadow: 0 0 2px rgba(250,250,250,.3);
+    font-size: 18px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: rgb(2,100,88);
+    width: 80%;
+    margin: 10%;
+}
+
+a, i, p, ul, li {
+    padding: 3px;
+}
+
+a:link, a:visited {
+    color: rgba(200, 200, 200, .8);
+}

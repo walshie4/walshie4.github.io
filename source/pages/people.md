@@ -1,7 +1,5 @@
 ---
-layout: page
 title: People
-sidebar: true
 ---
 ###Some Awesome People <small>(in no particular order)</small>
 
@@ -13,7 +11,7 @@ sidebar: true
     * Creator of the Bitcoin protocol, and anonymous badass
 
 * [Mark Wahlberg](http://en.wikipedia.org/wiki/Mark_Wahlberg)
-    * Not only is he an incredible actor and director, but he also has a really inspiring 
+    * Not only is he an incredible actor and director, but he also has a really inspiring
     and intresting background story. <small>(Also he's from Boston)</small>
 
 * [Jeff Bridges](http://en.wikipedia.org/wiki/Jeff_Bridges)
@@ -23,5 +21,3 @@ sidebar: true
     * Essentially a god in the FOSS community he founded the [Free Software Foundation](https://fsf.org/)
     and started the [GNU project](http://www.gnu.org/). His [personal website](http://www.stallman.org/) is
     a great source of news regarding free and open culture.
-
-<small>More to come...</small>

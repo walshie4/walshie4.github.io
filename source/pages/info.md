@@ -1,7 +1,5 @@
 ---
-layout: page
 title: Important / Cool things
-sidebar: true
 ---
 ##The Privacy Debate
 As I hope many of you are aware there recently has been a growing debate about our privacy when using electronic
@@ -9,9 +7,9 @@ As I hope many of you are aware there recently has been a growing debate about o
  and the [NSA](http://en.wikipedia.org/wiki/National_Security_Agency), however I do not want to attempt to
  force feed you my point of view. I agree with the words of NSA Deputy Director [Richard Ledgett](http://en.wikipedia.org/wiki/Richard_Ledgett)
  when he said, (in [this TED talk regarding NSA surviellence programs](http://www.ted.com/talks/richard_ledgett_the_nsa_responds_to_edward_snowden_s_ted_talk))
- that the best thing we can all do is to, "learn the facts." 
+ that the best thing we can all do is to, "learn the facts."
 
-####Some informative TED talks
+####Some TED talks
 * As linked above, [this](http://www.ted.com/talks/richard_ledgett_the_nsa_responds_to_edward_snowden_s_ted_talk) talk
 actually features Richard Ledgett live answering questions at a [TED](http://www.ted.com/) conference.
 
@@ -26,7 +24,7 @@ actually features Richard Ledgett live answering questions at a [TED](http://www
 
 ####Words from others on this subject
 
-* [A great video](http://media.libreplanet.org/u/zakkai/m/free-software-for-freedom-surveillance-and-you/) from 
+* [A great video](http://media.libreplanet.org/u/zakkai/m/free-software-for-freedom-surveillance-and-you/) from
 [Jacob Appelbaum](http://en.wikipedia.org/wiki/Jacob_Appelbaum) featured at [LibrePlanet 2014](https://libreplanet.org/2014/)
 about the surviellence breaks, and how free and open software and hardware plays into the surviellence issue and our future.
 He also talks about what needs to change in free and open source software to become more mainstream, and allow us to break free of
@@ -35,7 +33,7 @@ these monitored centralized systems.
 ####Related
 
 * A very upsetting [article](http://www.wired.com/2014/04/obama-zero-day/) that shows the major mindset issue that helped lead to
-the NSA scandal in the first place and now is only making things worse. Note that the President’s Review Group on Intelligence and 
+the NSA scandal in the first place and now is only making things worse. Note that the President’s Review Group on Intelligence and
 Communications Technologies released a [report](http://www.wired.com/wp-content/uploads/2014/04/White-House-NSA-Panel-Report-2013.pdf)
 in which it took a much more logical angle on this sensitive issue.
 
@@ -62,25 +60,6 @@ this section to grow a lot as I transfer what I believe to be the critical infor
 * [iOS Onion Browser](https://github.com/mtigas/iOS-OnionBrowser)
     * I love [TOR](https://www.torproject.org/) and of course I love open-source so when I found out that the Onion Browser
     for iOS was open source I was thrilled. Putting the power of TOR onto iOS (not even just jailbroken iOS) is something I believe
-    is almost nessecary, not to mention really cool. You can check out the [offical site here](https://mike.tig.as/onionbrowser/).
+    is almost necessary, not to mention really cool. You can check out the [offical site here](https://mike.tig.as/onionbrowser/).
 
 --------------------
-
-##Coinbase hack
-[Coinbase](https://coinbase.com/) is a great company, and is certainly the easiest way to buy/sell Bitcoins in the U.S. today. However,
-after Information Security Enthuisast [Shubham Shah](http://shubh.am/) [posted about a security hole in their API](http://blog.shubh.am/full-disclosure-coinbase-security/) and the Coinbase team [chose to mark the bug as 'won't fix'](https://hackerone.com/reports/5200), the bug
-was exploited. Early on April 1st, 2014 [a list of Coinbase user's emails and names](http://pastebin.com/RzWipJFb) was released on pastebin.
-The poster claims that this is not the full list and also makes some far reaching statements (that honestly could be true...) about Coinbase
-being under gag order by the FBI, IRS, and FinCEN. There is no way to verify these claims, or even know if there are more emails to the list. 
-The one un-deniable take-away is that the Coinbase team made a mistake here, and because of that mistake they have put some of their users 
-accounts at risk. This really sucks because it's yet another piece of evidence to use against any company that claims they can securly hold 
-your Bitcoins for you (just for the record I think holding your own coins is a no-brainer). Hopefully Coinbase will react
-appropriately and restore some faith back into its customers, because especially when it comes to Bitcoins if you can't be trusted to remain as
-secure as possible the chances of users using your services greatly declines.
-
-Update: Coinbase has [posted](http://blog.coinbase.com/post/81407694500/update-on-coinbase-data-security) a response to the API security flaw with their
-thoughts on the incident, and user info release.
-
---------------------
-
-<small>More to come....</small>

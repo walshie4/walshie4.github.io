@@ -1,7 +1,5 @@
 ---
-layout: page
 title: About
-sidebar: true
 ---
 ####Summary
 Adam Walsh is currently a student at the Rochester Institute of Technology studying Software Engineering.

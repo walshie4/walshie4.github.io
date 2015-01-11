@@ -10,10 +10,12 @@
 ###
 # Page options, layouts, aliases and proxies
 ###
+set :haml, { :ugly => false, :format => :html5 }
 
 # Per-page layout changes:
 #
 page "index.html", :layout => :base
+page "/pages/*", :layout => :page
 # With no layout
 # page "/path/to/file.html", :layout => false
 #
@@ -39,6 +41,7 @@ page "index.html", :layout => :base
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+  activate :directory_indexes
 end
 
 # Methods defined in the helpers block are available in templates
@@ -60,12 +63,13 @@ set :build_dir, 'build'
 configure :build do
   # For example, change the Compass output style for deployment
   activate :minify_css
-
   # Minify Javascript on build
   activate :minify_javascript
-
   activate :directory_indexes
-
+  # Utilize gzip compression
+  activate :gzip
+  # Minify HTML on build
+  activate :minify_html
   # Enable cache buster
   # activate :asset_hash
 
