@@ -1,12 +1,4 @@
 My personal web site. (More here soon.)
-## Theme Author
-
-Theme: Hyde - based on Poole
-
-By:**Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
-
 
 ## License
 
