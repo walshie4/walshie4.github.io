@@ -44,6 +44,11 @@ configure :development do
   activate :directory_indexes
 end
 
+activate :deploy do |deploy|
+      deploy.method = :git
+        deploy.branch = 'master'
+end
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
