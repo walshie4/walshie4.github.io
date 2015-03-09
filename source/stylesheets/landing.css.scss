@@ -56,6 +56,22 @@ i:hover, div:hover {
 #title {
     font-size: 28px;
     padding-left: 12%;
+    &:hover {
+        img {
+            opacity: 1.0;
+        }
+    }
+}
+
+#school {
+    padding-top: 1%;
+    padding-left: 20%;
+    font-size: 22px;
+}
+
+#company {
+    height: 28px;
+    opacity: .4;
 }
 
 #linkbox {
@@ -63,7 +79,7 @@ i:hover, div:hover {
     padding-left: 8%;
 }
 
-#github, #linkedin {
+.icon {
     padding: 3%;
     color: rgba(100,100,100,.4);
 }
