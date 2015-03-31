@@ -41,7 +41,7 @@ body {
 
 #main {
     @extend .transparent;
-    color: rgba(160,160,160,.7);
+    color: rgba(160,160,160,1);
     font-size: 38px;
     width: 100%;
     height: 90%;
@@ -53,7 +53,7 @@ body {
 }
 
 i:hover, div:hover {
-    color: rgba(240, 240, 240, .8);
+    color: rgba(240, 240, 240, 1);
 }
 
 #name {
@@ -80,7 +80,6 @@ i:hover, div:hover {
 
 #company {
     height: 32px;
-    opacity: .5;
 }
 
 #linkbox {
@@ -90,5 +89,5 @@ i:hover, div:hover {
 
 .icon {
     padding: 3%;
-    color: rgba(150,150,150,.5);
+    color: rgba(170,170,170,1);
 }
