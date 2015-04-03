@@ -2,7 +2,10 @@ run:
 	bundle exec middleman
 push:
 	git push origin source
-deploy: push
+pull:
+	git pull origin source
+update: pull push
+deploy: update
 	middleman build
 	middleman deploy
 
