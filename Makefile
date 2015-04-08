@@ -5,7 +5,8 @@ push:
 pull:
 	git pull origin source
 update: pull push
-deploy: update
-	middleman build
-	middleman deploy
+deploy: update build
+	bundle exec middleman deploy
+make: clean
+	bundle exec middleman build
 
