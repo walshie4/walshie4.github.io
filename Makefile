@@ -1,3 +1,4 @@
+.PHONY: run, push, pull, update, deploy, build
 run:
 	bundle exec middleman
 push:
@@ -7,6 +8,6 @@ pull:
 update: pull push
 deploy: update build
 	bundle exec middleman deploy
-make: clean
+build:
 	bundle exec middleman build
 
