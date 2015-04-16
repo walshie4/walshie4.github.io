@@ -1,4 +1,6 @@
-.PHONY: run, push, pull, update, deploy, build
+.PHONY: run, push, pull, update, deploy, build, clean
+clean:
+	rm -rf build/
 run:
 	bundle exec middleman
 push:
@@ -8,6 +10,6 @@ pull:
 update: pull push
 deploy: update build
 	bundle exec middleman deploy
-build:
+build: clean
 	bundle exec middleman build
 
