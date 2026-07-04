@@ -101,8 +101,9 @@ const isPrivate = currentPath.startsWith('/private');
         const introPrompt = document.getElementById('intro-prompt');
         let isDecrypted = false;
 
-        // Check if session already decrypted to bypass intro gate on subpages
-        if (sessionStorage.getItem('matrix_decrypted') === 'true') {
+        // Check if session already decrypted or debug parameter present to bypass intro gate
+        const urlParams = new URLSearchParams(window.location.search);
+        if (sessionStorage.getItem('matrix_decrypted') === 'true' || urlParams.has('decrypt')) {
           isDecrypted = true;
           if (introGate) introGate.style.display = 'none';
           document.body.classList.add('decrypted');
