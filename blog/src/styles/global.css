@@ -77,13 +77,14 @@ body.decrypted:not(.dance-active) #matrix-canvas {
   width: 100%;
   height: 100%;
   z-index: 100;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.4); /* Make it much more transparent so the matrix rain shines through! */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   transition: opacity 1s ease, transform 1s ease, visibility 1s ease;
+  backdrop-filter: blur(2px);
 }
 
 #intro-gate.fade-out {
@@ -97,7 +98,10 @@ body.decrypted:not(.dance-active) #matrix-canvas {
   text-align: left;
   max-width: 600px;
   padding: 20px;
-  border-left: 2px solid var(--fg);
+  background: rgba(0, 10, 0, 0.85); /* Dark terminal box for the intro text */
+  border: 1px solid var(--fg);
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
 }
 
 .intro-prompt {
