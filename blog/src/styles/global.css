@@ -39,7 +39,9 @@ body {
   font-size: 0.9rem;
   line-height: 1.75;
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   overflow: hidden; /* Prevent body scroll, scrolling is within terminal-body */
   position: relative;
 }
@@ -49,8 +51,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   z-index: 1;
   pointer-events: auto;
 }
@@ -60,8 +62,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   z-index: 2;
   background: rgba(0, 0, 0, 0.0); /* Starts fully transparent in intro gate */
   pointer-events: none;
@@ -78,8 +80,8 @@ body.decrypted #background-dimmer {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   z-index: 100;
   background: rgba(0, 0, 0, 0.85);
   display: flex;
@@ -824,12 +826,12 @@ img {
 /* ---- Mobile Responsiveness ---- */
 @media (max-width: 600px) {
   body {
-    padding: 10px;
+    padding: 0;
   }
   .terminal-container {
-    height: 95vh;
+    height: 96vh;
     max-height: none;
-    width: 100%;
+    width: 94%;
   }
   .terminal-nav {
     overflow-x: auto;
