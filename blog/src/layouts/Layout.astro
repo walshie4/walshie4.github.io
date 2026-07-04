@@ -34,13 +34,7 @@ const isPrivate = currentPath.startsWith('/private');
     <!-- Translucent Background Dimmer -->
     <div id="background-dimmer"></div>
 
-    <!-- Intro Gate Landing Screen -->
-    <div id="intro-gate">
-      <div class="intro-content">
-        <div class="intro-prompt" id="intro-prompt"></div>
-        <div class="intro-sub">CLICK OR PRESS ANY KEY TO INITIALIZE CONSTRUCT...</div>
-      </div>
-    </div>
+    <!-- Intro Gate Removed -->
 
     <!-- Overlay Alerts for Matrix Dance -->
     <div id="dance-overlay" class="hidden">
@@ -95,78 +89,10 @@ const isPrivate = currentPath.startsWith('/private');
     <script>
       function startMatrixConstruct() {
         // ---------------------------------------------------------------------
-        // 1. Intro Gate Decryption Logic
+        // 1. Decrypted State Initialization (Intro Gate Removed)
         // ---------------------------------------------------------------------
-        const introGate = document.getElementById('intro-gate');
-        const introPrompt = document.getElementById('intro-prompt');
-        let isDecrypted = false;
-
-        // Check if session already decrypted or debug parameter present to bypass intro gate
-        const urlParams = new URLSearchParams(window.location.search);
-        if (sessionStorage.getItem('matrix_decrypted') === 'true' || urlParams.has('decrypt')) {
-          isDecrypted = true;
-          if (introGate) introGate.style.display = 'none';
-          document.body.classList.add('decrypted');
-        } else {
-          // Typewriter effect on intro screen
-          const textToType = "guest@walshie4.io:~$ ./init_sequence.sh";
-          let charIdx = 0;
-          
-          function typeIntro() {
-            if (introPrompt && charIdx < textToType.length) {
-              introPrompt.textContent += textToType[charIdx];
-              charIdx++;
-              setTimeout(typeIntro, 75);
-            } else if (introPrompt) {
-              introPrompt.innerHTML += '<span class="blink">_</span>';
-            }
-          }
-          
-          setTimeout(typeIntro, 400);
-        }
-
-        function decryptConstruct() {
-          if (isDecrypted) return;
-          isDecrypted = true;
-          sessionStorage.setItem('matrix_decrypted', 'true');
-          
-          if (introGate) {
-            introGate.classList.add('fade-out');
-            setTimeout(() => {
-              introGate.style.display = 'none';
-            }, 1000);
-          }
-          
-          // Add dance-active temporarily so the final ripple can be seen before fading out
-          document.body.classList.add('dance-active');
-          document.body.classList.add('decrypted');
-          
-          // Trigger a beautiful starting ripple in the center of the screen
-          ripples.push({
-            x: window.innerWidth / 2,
-            y: window.innerHeight / 2,
-            radius: 0,
-            maxRadius: Math.max(window.innerWidth, window.innerHeight) * 0.75,
-            speed: 12,
-            thickness: 30
-          });
-
-          // Fade out the matrix completely after the intro ripple finishes
-          setTimeout(() => {
-             document.body.classList.remove('dance-active');
-          }, 3500);
-        }
-
-        // Listeners to decrypt and enter
-        if (introGate) {
-          introGate.addEventListener('click', decryptConstruct);
-        }
-        window.addEventListener('keydown', (e) => {
-          if (!isDecrypted) {
-            e.preventDefault();
-            decryptConstruct();
-          }
-        });
+        const isDecrypted = true;
+        document.body.classList.add('decrypted');
 
         // ---------------------------------------------------------------------
         // 2. Matrix Digital Rain Canvas
