@@ -93,7 +93,7 @@ const isPrivate = currentPath.startsWith('/private');
 
     <!-- Matrix Canvas rain interaction script -->
     <script>
-      document.addEventListener('DOMContentLoaded', () => {
+      function startMatrixConstruct() {
         // ---------------------------------------------------------------------
         // 1. Intro Gate Decryption Logic
         // ---------------------------------------------------------------------
@@ -176,12 +176,19 @@ const isPrivate = currentPath.startsWith('/private');
         const ctx = canvas.getContext('2d');
         if (!ctx) return;
 
-        let width = (canvas.width = window.innerWidth);
-        let height = (canvas.height = window.innerHeight);
+        function getWidth() {
+          return window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth || 1024;
+        }
+        function getHeight() {
+          return window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight || 768;
+        }
+
+        let width = (canvas.width = getWidth());
+        let height = (canvas.height = getHeight());
 
         window.addEventListener('resize', () => {
-          width = canvas.width = window.innerWidth;
-          height = canvas.height = window.innerHeight;
+          width = canvas.width = getWidth();
+          height = canvas.height = getHeight();
           initializeColumns();
         });
 
@@ -566,6 +573,15 @@ const isPrivate = currentPath.startsWith('/private');
         }
 
         function animate() {
+          const currentWidth = getWidth();
+          const currentHeight = getHeight();
+          
+          if (width !== currentWidth || height !== currentHeight) {
+            width = canvas.width = currentWidth;
+            height = canvas.height = currentHeight;
+            initializeColumns();
+          }
+
           ctx.fillStyle = 'rgba(0, 0, 0, 0.08)';
           ctx.fillRect(0, 0, width, height);
 
@@ -593,7 +609,13 @@ const isPrivate = currentPath.startsWith('/private');
             decryptConstruct();
           });
         }
-      });
+      }
+
+      if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        startMatrixConstruct();
+      } else {
+        window.addEventListener('load', startMatrixConstruct);
+      }
     </script>
   </body>
 </html>
