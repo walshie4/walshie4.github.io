@@ -155,6 +155,10 @@ body.decrypted:not(.dance-active) #matrix-canvas {
   overflow: hidden;
 }
 
+.terminal-header, .terminal-footer {
+  flex-shrink: 0;
+}
+
 /* When construct decrypted, fade in and scale up the terminal window */
 body.decrypted .terminal-container {
   opacity: 1;
@@ -830,6 +834,11 @@ img {
     height: 96vh;
     max-height: none;
     width: 92%;
+    top: 2vh; /* Anchor position explicitly to prevent dynamic height/inset collapse */
+    bottom: 2vh;
+    left: 4%;
+    right: 4%;
+    margin: 0;
   }
   .terminal-nav {
     overflow-x: auto;
