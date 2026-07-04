@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Astro Build outputs
+dist/
+.astro/
+
+# Environment files
+.env
+.env.production
+.env.development
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# OpenClaw Workspace specific files we don't want in website repo
+.openclaw/
+memory/
+skills/
+AGENTS.md
+IDENTITY.md
+MEMORY.md
+SOUL.md
+TOOLS.md
+USER.md
+BUSINESS_PLAN.md
+FUNDRAISING_AND_GTM_KIT.md
+HEARTBEAT.md
+OnboardingScreen.tsx
+onboarding_flow.html
+eraguessR/
+guessr-mobile/
+lyricsguessr/
+netnav/
+quoteguessr/
+real_synq
+seasonguessr
+whoguessr

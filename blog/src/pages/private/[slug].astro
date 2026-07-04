@@ -1,0 +1,45 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PasswordGate from '../../components/PasswordGate.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('private', ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+function formatDate(d: Date) {
+  return d.toLocaleDateString('en-GB', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+}
+---
+
+<Layout title={post.data.title} description="Private post.">
+  <PasswordGate>
+    <div class="article-header">
+      <h1>{post.data.title}</h1>
+      <p class="article-meta">
+        {formatDate(post.data.date)}
+        {post.data.tags && post.data.tags.length > 0 && (
+          <> &mdash; {post.data.tags.map((t) => <span class="post-tag">{t}</span>)}</>
+        )}
+      </p>
+    </div>
+
+    <div class="article-body">
+      <Content />
+    </div>
+
+    <hr />
+    <p><a href="/private">&larr; Private index</a></p>
+  </PasswordGate>
+</Layout>

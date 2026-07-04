@@ -1,0 +1,34 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import PasswordGate from '../../components/PasswordGate.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('private', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+function formatDate(d: Date) {
+  return d.toISOString().split('T')[0];
+}
+---
+
+<Layout title="Private" description="Private section.">
+  <PasswordGate>
+    <span class="section-label">// private</span>
+
+    <ul class="post-list">
+      {posts.map((post) => (
+        <li>
+          <span class="post-date">{formatDate(post.data.date)}</span>
+          <span>
+            <a href={`/private/${post.slug}`}>{post.data.title}</a>
+            {post.data.tags?.map((tag) => (
+              <span class="post-tag">{tag}</span>
+            ))}
+          </span>
+        </li>
+      ))}
+    </ul>
+
+    {posts.length === 0 && <p style="color: var(--muted);">Nothing here yet.</p>}
+  </PasswordGate>
+</Layout>
