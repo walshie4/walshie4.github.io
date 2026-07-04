@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}} | Matrix Node</title>
+    <style>
+        {{CSS}}
+    </style>
+</head>
+<body>
+    <!-- Matrix Rain Canvas -->
+    <canvas id="matrix-canvas"></canvas>
+
+    <!-- Overlay Alerts for Matrix Dance -->
+    <div id="dance-overlay" class="hidden">
+        <div class="overlay-content">
+            <div id="overlay-text" class="glitch"></div>
+            <div id="overlay-subtext"></div>
+        </div>
+    </div>
+
+    <!-- Main Terminal Container -->
+    <div class="terminal-container">
+        <header class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="btn close"></span>
+                <span class="btn minimize"></span>
+                <span class="btn maximize"></span>
+            </div>
+            <div class="terminal-title">system_connection@walshie4.io: ~</div>
+        </header>
+
+        <div class="terminal-body">
+            <!-- Navigation -->
+            <nav class="terminal-nav">
+                <button class="nav-btn active" data-tab="profile">/identity</button>
+                <button class="nav-btn" data-tab="blog">/logs</button>
+                <button class="nav-btn" data-tab="reads">/transmissions</button>
+            </nav>
+
+            <!-- Identity Tab -->
+            <section id="profile" class="tab-content active">
+                <div class="profile-header">
+                    <div class="avatar-container">
+                        <div class="avatar-matrix-code"></div>
+                        <div class="avatar-fallback">AW</div>
+                    </div>
+                    <div class="identity-info">
+                        <h1 class="glitch-text" data-text="{{TITLE}}">{{TITLE}}</h1>
+                        <p class="tagline">&gt; {{TAGLINE}}</p>
+                    </div>
+                </div>
+
+                <div class="console-box">
+                    <div class="console-header">node_status.sh</div>
+                    <div class="console-content">
+                        <p><span class="prompt">guest@walshie4:~$</span> ./finger_identity.sh</p>
+                        <p class="response">
+                            Establishing secure handshake... SUCCESS.<br>
+                            Node Location: Earth / Decentralized Net.<br>
+                            Status: Active orchestrator.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="links-section">
+                    <h3>// SECURE_COMM_CHANNELS</h3>
+                    <div class="grid-links">
+                        <a href="{{GITHUB_URL}}" target="_blank" class="cyber-link">
+                            <span class="icon">🐙</span>
+                            <span class="label">GitHub</span>
+                            <span class="arrow">&gt;</span>
+                        </a>
+                        <a href="{{LINKEDIN_URL}}" target="_blank" class="cyber-link">
+                            <span class="icon">💼</span>
+                            <span class="label">LinkedIn</span>
+                            <span class="arrow">&gt;</span>
+                        </a>
+                        <a href="{{MEDIUM_URL}}" target="_blank" class="cyber-link">
+                            <span class="icon">📝</span>
+                            <span class="label">Medium</span>
+                            <span class="arrow">&gt;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="interactive-hint">
+                    <span class="blink">&gt;&gt;&gt;</span> Click canvas for a code ripple. Type secret phrases ("red pill", "blue pill", "white rabbit", "there is no spoon", "neo") to alter the construct.
+                </div>
+            </section>
+
+            <!-- Blog Tab -->
+            <section id="blog" class="tab-content">
+                <h2>// MATRIX_LOGS (TRANSMISSIONS)</h2>
+                <p class="section-desc">Decrypted records of Scalability, Network Architecture, and System Design.</p>
+                
+                <div class="blog-list">
+                    {{BLOG_POSTS}}
+                </div>
+            </section>
+
+            <!-- Transmissions Tab (Reads) -->
+            <section id="reads" class="tab-content">
+                <h2>// INBOUND_TRANSMISSIONS (GOOD READS)</h2>
+                <p class="section-desc">External data feeds currently monitored by this terminal node.</p>
+                
+                <ul class="reads-list">
+                    {{GOOD_READS}}
+                </ul>
+            </section>
+        </div>
+
+        <footer class="terminal-footer">
+            <div class="status-indicator">
+                <span class="dot pulse"></span> SECURE CONNECTION ESTABLISHED
+            </div>
+            <div class="copyright">
+                &copy; 2026 WALSHIE4. ALL RIGHT PRESERVED. [VER_2.0.0]
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        {{JS}}
+    </script>
+</body>
+</html>

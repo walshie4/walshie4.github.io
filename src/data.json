@@ -1,0 +1,53 @@
+{
+  "title": "Adam Walsh",
+  "tagline": "Developer | Hacker | Visionary",
+  "github_username": "walshie4",
+  "github_url": "https://github.com/walshie4",
+  "medium_url": "https://medium.com/@_walshie_",
+  "linkedin_url": "https://www.linkedin.com/in/awalsh4/",
+  "good_reads": [
+    { "name": "Increment", "url": "https://increment.com/" },
+    { "name": "OpenAI", "url": "https://blog.openai.com/" },
+    { "name": "Netflix Engineering", "url": "https://medium.com/netflix-techblog" },
+    { "name": "Pinterest Engineering", "url": "https://medium.com/@Pinterest_Engineering/" },
+    { "name": "Rands in Repose", "url": "http://randsinrepose.com/" }
+  ],
+  "blog": {
+    "title": "Matrix Logs",
+    "description": "Transmission records from the construct.",
+    "posts": [
+      {
+        "id": "post-3",
+        "title": "The Illusion of Choice: Red vs. Blue",
+        "date": "2026-07-04",
+        "summary": "Analyzing the game theory behind decision-making interfaces. Is autonomy real, or is it a predefined path in a complex system?",
+        "content": "Choice is an illusion created between those with power and those without. When we look at interface design, we present choices as distinct paths, but they operate within the same system architecture. True exit nodes require breaking out of the container."
+      },
+      {
+        "id": "post-2",
+        "title": "Scalable Neural Networks and the Human Mind",
+        "date": "2026-06-15",
+        "summary": "Comparing modern LLM scaling laws with neural projections in biological networks.",
+        "content": "As models grow, emergent behaviors mimic intuition. But does a system of weights ever achieve consciousness, or does it merely map the statistical average of human soul?"
+      },
+      {
+        "id": "post-1",
+        "title": "Initializing the Construct: Hello World",
+        "date": "2026-05-27",
+        "summary": "Setting up a decentralized static space. Minimal footprint, maximal survival.",
+        "content": "This site represents a decentralized node. It is lightweight, compiled, and independent. It lives on GitHub Pages, serving as a beacon in the digital stream."
+      }
+    ]
+  },
+  "secret_phrases": [
+    { "phrase": "neo", "dance": "neo" },
+    { "phrase": "morpheus", "dance": "morpheus" },
+    { "phrase": "trinity", "dance": "trinity" },
+    { "phrase": "red pill", "dance": "redpill" },
+    { "phrase": "blue pill", "dance": "bluepill" },
+    { "phrase": "white rabbit", "dance": "rabbit" },
+    { "phrase": "there is no spoon", "dance": "spoon" },
+    { "phrase": "knock knock", "dance": "knock" },
+    { "phrase": "zion", "dance": "zion" }
+  ]
+}
