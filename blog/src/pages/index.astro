@@ -1,0 +1,85 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 5);
+
+function formatDate(d: Date) {
+  return d.toISOString().split('T')[0];
+}
+---
+
+<Layout title="adam.walsh">
+  <span class="section-label">// home</span>
+
+  <div class="profile-header-inline" style="display: flex; align-items: center; gap: 20px; margin-bottom: 25px;">
+    <div class="avatar-container" style="width: 70px; height: 70px; border-radius: 50%; border: 2px solid var(--matrix-green); overflow: hidden; position: relative; display: flex; justify-content: center; align-items: center; background: #001100; box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);">
+      <div class="avatar-matrix-code" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg, transparent 0%, rgba(0,255,0,0.15) 50%, transparent 100%); animation: scanLines 2.5s linear infinite;"></div>
+      <div class="avatar-fallback" style="font-size: 1.6em; font-weight: bold; color: var(--matrix-green); text-shadow: 0 0 10px var(--matrix-glow); z-index: 2;">AW</div>
+    </div>
+    <div class="identity-info">
+      <h1 class="glitch-text" data-text="Adam Walsh" style="margin: 0; font-size: 2.1rem; font-weight: 700; color: var(--matrix-green);">Adam Walsh</h1>
+      <p class="tagline" style="margin: 3px 0 0; color: var(--muted); font-size: 1rem;">&gt; Developer | Hacker | Visionary</p>
+    </div>
+  </div>
+
+  <p>
+    Writing about whatever I'm thinking about — technology, building things,
+    and being alive in the world. Based wherever I am right now.
+  </p>
+
+  <!-- Console status block -->
+  <div class="console-box">
+    <div class="console-header">finger_identity.sh</div>
+    <div class="console-content">
+      <p><span class="prompt">guest@walshie4:~$</span> ./finger_identity.sh</p>
+      <p class="response">
+        Establishing secure handshake... SUCCESS.<br />
+        Node Location: Earth / Decentralized Net.<br />
+        Status: Active orchestrator.
+      </p>
+    </div>
+  </div>
+
+  <!-- Social Link Block -->
+  <div class="cyber-link-container" style="margin-bottom: 30px;">
+    <span class="section-label">// secure communication channels</span>
+    <div class="grid-links">
+      <a href="https://github.com/walshie4" target="_blank" class="cyber-link">
+        <span class="icon">🐙</span>
+        <span class="label">GitHub</span>
+        <span class="arrow">&gt;</span>
+      </a>
+      <a href="https://www.linkedin.com/in/awalsh4/" target="_blank" class="cyber-link">
+        <span class="icon">💼</span>
+        <span class="label">LinkedIn</span>
+        <span class="arrow">&gt;</span>
+      </a>
+      <a href="https://medium.com/@_walshie_" target="_blank" class="cyber-link">
+        <span class="icon">📝</span>
+        <span class="label">Medium</span>
+        <span class="arrow">&gt;</span>
+      </a>
+    </div>
+  </div>
+
+  <hr />
+
+  <span class="section-label">// recent transmissions (writing)</span>
+  <ul class="post-list">
+    {posts.map((post) => (
+      <li>
+        <span class="post-date">{formatDate(post.data.date)}</span>
+        <a href={`/blog/${post.slug}`}>{post.data.title}</a>
+      </li>
+    ))}
+  </ul>
+
+  {posts.length === 0 && <p style="color: var(--muted);">Nothing published yet.</p>}
+
+  <p style="margin-top: 2rem;">
+    <a href="/blog">All posts &rarr;</a>
+  </p>
+</Layout>
