@@ -31,6 +31,17 @@ const isPrivate = currentPath.startsWith('/private');
     <!-- Matrix Rain Background Canvas -->
     <canvas id="matrix-canvas"></canvas>
 
+    <!-- Translucent Background Dimmer -->
+    <div id="background-dimmer"></div>
+
+    <!-- Intro Gate Landing Screen -->
+    <div id="intro-gate">
+      <div class="intro-content">
+        <div class="intro-prompt" id="intro-prompt"></div>
+        <div class="intro-sub">CLICK OR PRESS ANY KEY TO INITIALIZE CONSTRUCT...</div>
+      </div>
+    </div>
+
     <!-- Overlay Alerts for Matrix Dance -->
     <div id="dance-overlay" class="hidden">
       <div class="overlay-content">
@@ -83,6 +94,75 @@ const isPrivate = currentPath.startsWith('/private');
     <!-- Matrix Canvas rain interaction script -->
     <script>
       document.addEventListener('DOMContentLoaded', () => {
+        // ---------------------------------------------------------------------
+        // 1. Intro Gate Decryption Logic
+        // ---------------------------------------------------------------------
+        const introGate = document.getElementById('intro-gate');
+        const introPrompt = document.getElementById('intro-prompt');
+        let isDecrypted = false;
+
+        // Check if session already decrypted to bypass intro gate on subpages
+        if (sessionStorage.getItem('matrix_decrypted') === 'true') {
+          isDecrypted = true;
+          if (introGate) introGate.style.display = 'none';
+          document.body.classList.add('decrypted');
+        } else {
+          // Typewriter effect on intro screen
+          const textToType = "guest@walshie4.io:~$ ./init_sequence.sh";
+          let charIdx = 0;
+          
+          function typeIntro() {
+            if (introPrompt && charIdx < textToType.length) {
+              introPrompt.textContent += textToType[charIdx];
+              charIdx++;
+              setTimeout(typeIntro, 75);
+            } else if (introPrompt) {
+              introPrompt.innerHTML += '<span class="blink">_</span>';
+            }
+          }
+          
+          setTimeout(typeIntro, 400);
+        }
+
+        function decryptConstruct() {
+          if (isDecrypted) return;
+          isDecrypted = true;
+          sessionStorage.setItem('matrix_decrypted', 'true');
+          
+          if (introGate) {
+            introGate.classList.add('fade-out');
+            setTimeout(() => {
+              introGate.style.display = 'none';
+            }, 1000);
+          }
+          
+          document.body.classList.add('decrypted');
+          
+          // Trigger a beautiful starting ripple in the center of the screen
+          ripples.push({
+            x: window.innerWidth / 2,
+            y: window.innerHeight / 2,
+            radius: 0,
+            maxRadius: Math.max(window.innerWidth, window.innerHeight) * 0.75,
+            speed: 12,
+            thickness: 30
+          });
+        }
+
+        // Listeners to decrypt and enter
+        if (introGate) {
+          introGate.addEventListener('click', decryptConstruct);
+        }
+        window.addEventListener('keydown', (e) => {
+          if (!isDecrypted) {
+            e.preventDefault();
+            decryptConstruct();
+          }
+        });
+
+        // ---------------------------------------------------------------------
+        // 2. Matrix Digital Rain Canvas
+        // ---------------------------------------------------------------------
         const canvas = document.getElementById('matrix-canvas') as HTMLCanvasElement;
         if (!canvas) return;
         const ctx = canvas.getContext('2d');
@@ -254,6 +334,7 @@ const isPrivate = currentPath.startsWith('/private');
         });
 
         window.addEventListener('click', (e) => {
+          if (!isDecrypted) return;
           const target = e.target as HTMLElement;
           if (!target.closest('.terminal-container') && !target.closest('#dance-overlay')) {
             ripples.push({
@@ -268,6 +349,7 @@ const isPrivate = currentPath.startsWith('/private');
         });
 
         window.addEventListener('keydown', (e) => {
+          if (!isDecrypted) return;
           const target = e.target as HTMLElement;
           if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA') {
             return;
@@ -486,6 +568,16 @@ const isPrivate = currentPath.startsWith('/private');
         }
 
         animate();
+
+        // ---------------------------------------------------------------------
+        // 3. Simple Handler to Hook Intro Click
+        // ---------------------------------------------------------------------
+        const triggerButton = document.getElementById('intro-gate');
+        if (triggerButton) {
+          triggerButton.addEventListener('click', () => {
+            decryptConstruct();
+          });
+        }
       });
     </script>
   </body>
