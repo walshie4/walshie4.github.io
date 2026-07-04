@@ -137,6 +137,8 @@ const isPrivate = currentPath.startsWith('/private');
             }, 1000);
           }
           
+          // Add dance-active temporarily so the final ripple can be seen before fading out
+          document.body.classList.add('dance-active');
           document.body.classList.add('decrypted');
           
           // Trigger a beautiful starting ripple in the center of the screen
@@ -148,6 +150,11 @@ const isPrivate = currentPath.startsWith('/private');
             speed: 12,
             thickness: 30
           });
+
+          // Fade out the matrix completely after the intro ripple finishes
+          setTimeout(() => {
+             document.body.classList.remove('dance-active');
+          }, 3500);
         }
 
         // Listeners to decrypt and enter
@@ -408,6 +415,7 @@ const isPrivate = currentPath.startsWith('/private');
         }
 
         function showOverlay(title: string, subtext: string, cssClass = '', duration = 8000) {
+          document.body.classList.add('dance-active'); // Fade matrix back in
           danceOverlay.className = cssClass;
           overlayText.textContent = title;
           overlayText.setAttribute('data-text', title);
@@ -489,6 +497,7 @@ const isPrivate = currentPath.startsWith('/private');
         }
 
         function triggerWhiteRabbit() {
+          document.body.classList.add('dance-active'); // Fade matrix back in
           bulletTime = true;
           colorMode = 'green';
           
@@ -549,6 +558,11 @@ const isPrivate = currentPath.startsWith('/private');
           warpEffect = false;
           zionFrenzy = false;
           if (terminalContainer) terminalContainer.className = 'terminal-container';
+          
+          // Let the visual finish, then fade the matrix out completely again
+          setTimeout(() => {
+            document.body.classList.remove('dance-active');
+          }, 3500);
         }
 
         function animate() {
