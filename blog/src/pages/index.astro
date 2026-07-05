@@ -2,19 +2,11 @@
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Adam Walsh">
+<Layout title="Adam Walsh" minimal>
   <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 380px; text-align: center; gap: 30px; padding: 20px 0;">
     
-    <!-- Fallback avatar with animated scanlines -->
-    <div class="avatar-container" style="width: 80px; height: 80px; border-radius: 50%; border: 2px solid var(--matrix-green); overflow: hidden; position: relative; display: flex; justify-content: center; align-items: center; background: #001100; box-shadow: 0 0 20px rgba(0, 255, 0, 0.25);">
-      <div class="avatar-matrix-code" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(180deg, transparent 0%, rgba(0,255,0,0.15) 50%, transparent 100%); animation: scanLines 2.5s linear infinite;"></div>
-      <div class="avatar-fallback" style="font-size: 1.8em; font-weight: bold; color: var(--matrix-green); text-shadow: 0 0 10px var(--matrix-glow); z-index: 2; font-family: var(--mono);">AW</div>
-    </div>
-
     <!-- Glitch Name Header -->
-    <div class="identity-info" style="margin-top: -10px;">
-      <h1 class="glitch-text" data-text="Adam Walsh" style="margin: 0; font-size: 2.8rem; font-weight: 700; color: var(--matrix-green); font-family: var(--mono); text-transform: uppercase; letter-spacing: 2px;">Adam Walsh</h1>
-    </div>
+    <h1 class="glitch-text" data-text="Adam Walsh" style="margin: 0; font-size: 2.8rem; font-weight: 700; color: var(--matrix-green); font-family: var(--mono); text-transform: uppercase; letter-spacing: 2px;">Adam Walsh</h1>
 
     <!-- Minimal Secure Links grid (fits beautifully in a centered row/grid) -->
     <div class="cyber-link-container" style="width: 100%; max-width: 500px; margin-top: 5px;">
