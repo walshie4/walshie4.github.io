@@ -69,6 +69,20 @@ body.decrypted:not(.dance-active) #matrix-canvas {
   pointer-events: none;
 }
 
+/* ---- Minimal Overlay (name + links directly on matrix) ---- */
+.minimal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+.minimal-overlay > * {
+  pointer-events: auto;
+}
+
 /* ---- Intro Gate (Landing Screen) ---- */
 #intro-gate {
   position: fixed;
