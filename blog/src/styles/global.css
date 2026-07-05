@@ -83,6 +83,12 @@ body.decrypted:not(.dance-active) #matrix-canvas {
   pointer-events: auto;
 }
 
+/* Keep matrix rain visible forever on minimal pages */
+body.minimal #matrix-canvas {
+  opacity: 1 !important;
+  pointer-events: auto;
+}
+
 /* ---- Intro Gate (Landing Screen) ---- */
 #intro-gate {
   position: fixed;

@@ -28,7 +28,7 @@ const isPrivate = currentPath.startsWith('/private');
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
-  <body>
+  <body class={minimal ? 'minimal' : ''}>
     <!-- Matrix Rain Background Canvas -->
     <canvas id="matrix-canvas"></canvas>
 
@@ -97,7 +97,10 @@ const isPrivate = currentPath.startsWith('/private');
         // 1. Decrypted State Initialization (Intro Gate Removed)
         // ---------------------------------------------------------------------
         const isDecrypted = true;
-        document.body.classList.add('decrypted');
+        const isMinimal = document.body.classList.contains('minimal');
+        // In minimal mode, don't add 'decrypted' — that class fades out the matrix canvas.
+        // Minimal pages want the rain to stay visible forever.
+        if (!isMinimal) document.body.classList.add('decrypted');
 
         // ---------------------------------------------------------------------
         // 2. Matrix Digital Rain Canvas
